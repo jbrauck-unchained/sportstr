@@ -1,7 +1,7 @@
 # Introducing Sportstr
 ### A python script based solution to getting sports RSS feeds into my nostr feed.
 
-I am sports junkie and even though I a bitcoiner I am also still the guy at the barbecue asking if you caught the game last night.
+I am sports junkie and even though I am bitcoiner, I also am still the guy at the barbecue asking if you caught the game last night.
 
 In this repo you will find a variety of identical repos all essentially doing the same thing. It fetches an rss feed from one source, then right after fetches all posts from the account in question from the last two days. Using text pre-processing and a cosine similarity scoring mechanism, it decides how similar this is to recent headlines. If this score cracks an 80% similarity threshold, then it will choose not to post the article. This in hopes to expanding to multiple sources for each category and stopping those sources from posting duplicates.
 
