@@ -1,0 +1,67 @@
+/bin/sh: /Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: Permission denied
+/bin/sh: /Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: Permission denied
+/bin/sh: /Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: Permission denied
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 1: import: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 2: import: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 3: from: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 4: syntax error near unexpected token `os.path.join'
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 4: `sys.path.append(os.path.join(os.path.dirname(__file__), '..'))'
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 1: import: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 2: import: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 3: from: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 4: syntax error near unexpected token `os.path.join'
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 4: `sys.path.append(os.path.join(os.path.dirname(__file__), '..'))'
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 1: import: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 2: import: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 3: from: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 4: syntax error near unexpected token `os.path.join'
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 4: `sys.path.append(os.path.join(os.path.dirname(__file__), '..'))'
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 1: import: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 2: import: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 3: from: command not found
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 4: syntax error near unexpected token `os.path.join'
+/Users/joe-unchained/nostsports/cbb/fetch_ncaa_rss.py: line 4: `sys.path.append(os.path.join(os.path.dirname(__file__), '..'))'
+No new articles.
+No new articles.
+No new articles.
+No new articles.
+No new articles.
+No new articles.
+[nltk_data] Downloading package punkt to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+None
+[nltk_data] Downloading package punkt to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+None
+INFO:websocket:Websocket connected
+INFO:websocket:Websocket connected
+INFO:websocket:Websocket connected
+INFO:websocket:Websocket connected
+INFO:websocket:Websocket connected
+INFO:websocket:Websocket connected
+INFO:websocket:Websocket connected
+INFO:websocket:Websocket connected
+INFO:root:Published event: 2024 College Basketball title odds: UConn favored; Houston, Purdue closing in
+https://www.foxsports.com/stories/college-basketball/college-basketball-odds-2023-24-early-championship-lines
+https://statics.foxsports.com/www.foxsports.com/content/uploads/2022/03/13c09148-03.13.22_Mens-CBB-Title-odds-for-every-team-in-the-tournament_16x9.jpg
+None

@@ -1,0 +1,50 @@
+/bin/sh: /Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: Permission denied
+/bin/sh: /Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: Permission denied
+/bin/sh: /Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: Permission denied
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 1: import: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 2: import: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 3: from: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 4: syntax error near unexpected token `os.path.join'
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 4: `sys.path.append(os.path.join(os.path.dirname(__file__), '..'))'
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 1: import: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 2: import: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 3: from: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 4: syntax error near unexpected token `os.path.join'
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 4: `sys.path.append(os.path.join(os.path.dirname(__file__), '..'))'
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 1: import: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 2: import: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 3: from: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 4: syntax error near unexpected token `os.path.join'
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 4: `sys.path.append(os.path.join(os.path.dirname(__file__), '..'))'
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 1: import: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 2: import: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 3: from: command not found
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 4: syntax error near unexpected token `os.path.join'
+/Users/joe-unchained/nostsports/nfl/fetch_pff_rss.py: line 4: `sys.path.append(os.path.join(os.path.dirname(__file__), '..'))'
+No new articles.
+No new articles.
+No new articles.
+No new articles.
+No new articles.
+No new articles.
+No new articles.
+No new articles.
+No new articles.
+[nltk_data] Downloading package punkt to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+[nltk_data] Downloading package punkt to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package punkt is already up-to-date!
+[nltk_data] Downloading package stopwords to /Users/joe-
+[nltk_data]     unchained/nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+None
+INFO:websocket:Websocket connected
+INFO:websocket:Websocket connected
+INFO:websocket:Websocket connected
+INFO:websocket:Websocket connected
+INFO:root:Duplicate article found. Not posting to Nostr.
