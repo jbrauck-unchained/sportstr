@@ -35,7 +35,6 @@ npub125q2n8m6ml7rr2e8n7kp9rdmexxfpm6d3jgsr44hl5lr294cjvsqc052n4
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-(Maybe this is true, idk all the cool projects say it)
 
 
 
