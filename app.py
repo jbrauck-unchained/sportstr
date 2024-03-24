@@ -41,8 +41,8 @@ def main():
     # Create a scheduler instance
     scheduler = BlockingScheduler()
 
-    # Schedule the job to run every 15 minutes
-    scheduler.add_job(fetch_all_feeds, 'interval', minutes=1)
+    # Schedule the job to run every 30 minutes
+    scheduler.add_job(fetch_all_feeds, 'interval', minutes=30)
 
     try:
         # Start the scheduler
