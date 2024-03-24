@@ -12,6 +12,7 @@ from apscheduler.schedulers.blocking import BlockingScheduler
 logging.basicConfig(level=logging.INFO)
 
 def fetch_all_feeds():
+    logging.info("Fetching all feeds...")
     philly_news = fetch_philly_rss()
     cbb_news = fetch_ncaa_rss()
     pff_news = fetch_pff_rss()
@@ -33,13 +34,15 @@ def fetch_all_feeds():
     else:
         logging.info("Nothing new posted for FOX MLB.")
 
+    logging.info("All feeds fetched.")
+
 
 def main():
     # Create a scheduler instance
     scheduler = BlockingScheduler()
 
     # Schedule the job to run every 15 minutes
-    scheduler.add_job(fetch_all_feeds, 'interval', minutes=15)
+    scheduler.add_job(fetch_all_feeds, 'interval', minutes=1)
 
     try:
         # Start the scheduler

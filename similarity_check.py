@@ -20,7 +20,7 @@ def calculate_similarity(text1, text2):
 
 # Function to deduplicate articles
 def deduplicate_articles(news, prev_notes):
-    SIMILARITY_THRESHOLD = 0.8
+    SIMILARITY_THRESHOLD = 0.6
     processed_news = preprocess_text(news)
     is_duplicate = False
     for note in prev_notes:
