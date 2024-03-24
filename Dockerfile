@@ -11,7 +11,7 @@ COPY . /app
 # Install any dependencies
 
 RUN pip install -r requirements.txt
-RUN python -m nltk.downloader punkt
+RUN python -m nltk.downloader punkt stopwords
 
 # Make port 5000 available to the world outside this container
 
