@@ -7,6 +7,7 @@ from cities.philly.fetch_philly_rss import main as fetch_philly_rss
 from sports.cbb.fetch_ncaa_rss import main as fetch_ncaa_rss
 from sports.nfl.fetch_pff_rss import main as fetch_pff_rss
 from sports.mlb.fetch_foxmlb_rss import main as fetch_foxmlb_rss
+from scorestr import main as scorstr
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 logging.basicConfig(level=logging.INFO)
@@ -17,6 +18,8 @@ def fetch_all_feeds():
     cbb_news = fetch_ncaa_rss()
     pff_news = fetch_pff_rss()
     foxmlb_news = fetch_foxmlb_rss()
+    sports_scores = scorstr()
+
     if philly_news:
         logging.info(f"PHILLY news posted: {philly_news}")
     else:
@@ -33,6 +36,11 @@ def fetch_all_feeds():
         logging.info(f"FOX MLB news posted: {foxmlb_news}")
     else:
         logging.info("Nothing new posted for FOX MLB.")
+
+    if sports_scores:
+        logging.info(f"Scores posted: {sports_scores}")
+    else:
+        logging.info("Nothing new posted for scores.")
 
     logging.info("All feeds fetched.")
 

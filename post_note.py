@@ -6,7 +6,6 @@ import os
 from dotenv import load_dotenv
 from nostr.event import Event
 from nostr.relay_manager import RelayManager
-from nostr.message_type import ClientMessageType
 from nostr.key import PrivateKey
 
 logging.basicConfig(level=logging.INFO)
