@@ -44,15 +44,20 @@ def time_converter(input_time_string):
 
 def todays_slate(data, current_date):
     # String init
-    todays_slate = f"{current_date} games:\n"
+    todays_slate = f"{current_date} games:"
 
     for event in data['events']:
         competitions = event.get('competitions')
         name = event.get('name')
-        time = time_converter(event.get('date'))
-        broadcast = competitions.get('broadcasts').get('names')[0]
-        todays_slate += f"\n{name} at {time} on {broadcast}\n"
-    
+        for competition in competitions:
+            time = time_converter(event.get('date'))
+            broadcasts = competition['broadcasts']
+            if broadcasts and 'name' in broadcasts[0]:
+                broadcast_name = broadcasts[0].get('name')
+                todays_slate += f"\n{name} at {time} on {broadcast_name}"
+            else:
+                todays_slate += f"\n{name} at {time}"
+        
     return todays_slate
 
     
@@ -65,8 +70,7 @@ def main():
     current_time = datetime.now().time()
 
     # Game slate initializers
-    slate_time_start = time(9, 30)
-    slate_time_end = time(10, 00)
+    slate_time_end = time(1, 00)
     
 
     for sport in in_season_sports:
@@ -79,7 +83,7 @@ def main():
             date = data['day'].get('date')
 
 
-            if slate_time_start <= current_time <= slate_time_end and date == current_date:
+            if date == current_date and current_time < slate_time_end:
                 logging.info(f"Fetching game slate...")
                 slate_post = todays_slate(data, current_date)
                 is_duplicate = deduplicate_articles(slate_post, prev_notes)
