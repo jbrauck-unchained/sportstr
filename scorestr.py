@@ -65,8 +65,8 @@ def main():
     current_time = datetime.now().time()
 
     # Game slate initializers
-    slate_time_start = time(7, 30)
-    slate_time_end = time(8, 00)
+    slate_time_start = time(9, 30)
+    slate_time_end = time(10, 00)
     
 
     for sport in in_season_sports:
@@ -107,7 +107,7 @@ def main():
                             post_note(fulltime_note, sports_nsecs[sport])
                         else:
                             logging.info("Duplicate article found. Not posting to Nostr.")
-                    elif status_name == 'STATUS_IN_PROGRESS' and status.get('period') == 8:
+                    elif status_name == 'STATUS_IN_PROGRESS' and status.get('period') == 5:
                         fulltime_note = (f"{event['name']} {status_detail} score: {competitors[0]['team']['name']} {competitors[0]['score']} - {competitors[1]['team']['name']} {competitors[1]['score']}")
                         is_duplicate = deduplicate_articles(fulltime_note, prev_notes)
                         if is_duplicate == False:
